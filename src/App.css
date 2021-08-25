@@ -1,0 +1,152 @@
+.chart-wrapper, canvas {
+  margin: 10px;
+  max-width: 1250px;
+}
+.app {
+  background-color: rgba(59, 73, 88, 0.6);
+}
+.navbar {
+  position: relative;
+  border-radius: 17px;
+  display: box-flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 75%;
+  -ms-flex-align: center;
+  margin-right: auto;
+  background-color: rgba(35, 55, 75, 0.6);
+}
+.chart-wrapper {
+  justify-content: center;
+  margin-top: 50px;
+  width:70%;
+  height: 60%;
+  border-radius: 25px;
+}
+.container {
+  border-radius: 25px;
+  display: box-flex;                  /* establish flex container */
+  flex-direction: inherit; 
+  position: absolute;
+  width:90%;
+  height: 90%;
+  margin-left: 75px;
+  overflow: scroll;        /* default value; can be omitted */
+  flex-wrap: wrap;   
+  -ms-flex-item-align: auto;           /* default value; can be omitted */
+   /* switched from default (flex-start, see below) */
+   background-color: rgba(35, 55, 75, 0.6);
+}
+
+.chart-wrapperB {
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(148, 137, 137);
+}
+.chart-wrapperC {
+  border-radius: 4px;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  background-color: rgb(148, 137, 137);
+}
+
+.btns-wrapper {
+  display: box-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:50%;
+  height: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  position: relative;
+}
+.toppageNav{
+  background-color: rgb(148, 137, 137);
+  width:100%;
+  height: 60%;
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+.chartSnapshot{
+  margin-left: 50px;
+}
+
+.input {
+  margin-left: 20px;
+  width: 250px;
+}
+
+.title {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.navbar {
+  margin-left: 300px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.info {
+  margin-left: 250px;
+  justify-content: center;
+}
+.start {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.chartBarVol {
+  position: top;
+  width:50%;
+  height: 50%;
+}
+.chartBarRadar {
+  position: top;
+  margin-top: 75px;
+  width:100%;
+  height: 80%;
+  margin-bottom: 75px;
+}
+.chartBarLin {
+  display: box-flex; 
+  position: top;
+  margin-top: 75px;
+  width:100%;
+  height: 80%;
+  margin-bottom: 75px;
+}
+.chartBLine {
+  position: top;
+  margin-top: 75px;
+  width:100%;
+  height: 80%;
+  margin-bottom: 75px;
+}
+.chartFLine {
+  margin-top: 75px;
+  position: top;
+  width:100%;
+  height: 80%;
+  margin-bottom: 75px;
+}
+.chartGLine {
+  margin-top: 75px;
+  position: top;
+  width:100%;
+  height: 80%;
+  margin-bottom: 75px;
+}
+.ticker-sym {
+  display: flex;
+  margin-left: 33%;
+  margin-top: 25%;
+  justify-content: left;
+  color: red;
+}
