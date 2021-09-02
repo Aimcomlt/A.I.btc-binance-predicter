@@ -99,7 +99,7 @@ console.log(globalLength[0], 'ClosePrice: ', ClosePrice)
       ThePrice.push(reponseXopen[valueX]);   
       HighPrice.push(reponseXhigh[valueX]);  
       LowPrice.push(reponseXlow[valueX]); 
-      ClosePrice.push(reponseXclose[499]);
+      ClosePrice.push(reponseXclose[valueX]);
 
 
       console.log(ThePrice)
@@ -536,7 +536,7 @@ for(let i = 0; i < OpenBrainResulta.length; i++) {
   console.log("OPEN PREDICTED; ", openBrainResult);
   console.log("OP: ", brOPI);
 
-
+  console.log(openBrainResult.values)
 
 ////PREPAIR AVERAGE BETWEEN THE ASSET OPEN PRICE AND THE OPEN PREDICTED
   const AvgElem1OpenOpen = [];

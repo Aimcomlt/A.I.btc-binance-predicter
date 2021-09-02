@@ -40,7 +40,7 @@ return (
     <h4>Working with brain js transported me back when I was a kid😛 with water colors. Playing was the beginning, mixing all thoses colors and learning was the end result.</h4>
     <h4>‼️Bouya‼️ 🤣I was really good at making black!🤣</h4>
     
-    <h2>◻️Quote◻️</h2>
+        <h2>◻️Quote◻️</h2>
     <h4>If one decides to clone this code solution I know all ready a lot about you.</h4>
     <h4>I know your favorite type of music. It's Techno-music. And why do I know this?</h4>
     <h4>Simple because the brain loves it.🥰</h4>
